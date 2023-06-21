@@ -92,6 +92,7 @@ Incorrectly classified files from the validation set were used to determine whic
 ![Wav2vec with audio augmentations — although validation accuracy is lower, model is likely more generalizable](https://cdn-images-1.medium.com/max/2000/1*lqWbLgvKp8IF6n_RlDa5Sw.png)*Wav2vec with audio augmentations — although validation accuracy is lower, model is likely more generalizable*
 
 ![OpenAI Whisper (no audio augmentation)—slightly lower validation accuracy, but still respectable. Sidenote: there’s a bug with the misclassified files list, but the total number of missclassified files is correct.](https://cdn-images-1.medium.com/max/2460/1*EVJM-7yEB1dIaOlW8xnCdA.png)*OpenAI Whisper (no audio augmentation)—slightly lower validation accuracy, but still respectable. Sidenote: there’s a bug with the misclassified files list, but the total number of missclassified files is correct.*
+
 ## Deployment
 
 The model was deployed on Huggingface Inference API using Gradio. This makes the model accessible for anybody wanting to test if they have Pseudobulbar palsy or other neurodegenerative diseases that also cause dysarthria. The deployment can be viewed here: [https://huggingface.co/spaces/spycoder/wav2vec](https://huggingface.co/spaces/spycoder/wav2vec)
